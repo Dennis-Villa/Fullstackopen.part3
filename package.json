@@ -7,7 +7,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:ui": "@powershell Remove-Item -Recurse -Force dist && cd ../Sec 2/Ej 15 - 20 && npm run build && @powershell Copy-Item dist -Recurse ../../Sec 3 - backend"
+    "build:ui": "@powershell Remove-Item -Recurse -Force dist && cd ../Sec_2/Ej_15_20 && npm run build && @powershell Copy-Item dist -Recurse ../../Sec_3_backend"
   },
   "author": "Dennis Villavicencio",
   "license": "ISC",
